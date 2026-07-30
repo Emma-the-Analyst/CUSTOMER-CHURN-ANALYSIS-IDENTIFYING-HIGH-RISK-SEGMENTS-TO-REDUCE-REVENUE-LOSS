@@ -181,7 +181,7 @@ Trial customers (0-12 months) show the highest churn at 48%, followed by Regular
 
 Fiber optic customers have the highest churn rate at 61%, compared to DSL (28%) and No internet (11%). This is the highest churn rate across all segments, indicating a potential issue with fiber optic service quality, pricing, or competition.
 
-![Internet Service Analysis](image13.png)
+![Internet Service Analysis](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/internet%20service%20analysis.png?raw=true)
 
 **OVERALL REVENUE LOST**
 

@@ -87,18 +87,20 @@ DATASET LINK: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 **viii. VARIABLE CATEGORIZATION**
 
-Contract represents the type of subscription agreement a customer has with the company. It consists of three distinct categories: Month-to-month (no long-term commitment, renews monthly), One year (12-month contract), and Two year (24-month contract).
+**Contract** represents the type of subscription agreement a customer has with the company. It consists of three distinct categories: Month-to-month (no long-term commitment, renews monthly), One year (12-month contract), and Two year (24-month contract).
 
-Tenure represents the length of time a customer has been with the company and has been grouped into three distinct segments; Trial (0-12 months), Regular (13-24 months), and Committed (25+ months).
+**Tenure** represents the length of time a customer has been with the company and has been grouped into three distinct segments; Trial (0-12 months), Regular (13-24 months), and Committed (25+ months).
 
-Monthly Charges represents the amount a customer pays per month. It has been grouped into two segments: High-Charges (≥70) and Low-Charges (<70).
+**Monthly Charges** represents the amount a customer pays per month. It has been grouped into two segments: High-Charges (≥70) and Low-Charges (<70).
 
-Internet Service represents the type of internet connection a customer subscribes to. It consists of three categories: DSL (digital subscriber line), Fiber optic (high-speed fiber connection), and No (no internet service).
+**Internet Service** represents the type of internet connection a customer subscribes to. It consists of three categories: DSL (digital subscriber line), Fiber optic (high-speed fiber connection), and No (no internet service).
 
 **ix. TOOLS USED**
 
 MySQL - For cleaning and data manipulation
+
 Power BI - For visualization
+
 Excel - For documenting discovery analysis
 
 ---

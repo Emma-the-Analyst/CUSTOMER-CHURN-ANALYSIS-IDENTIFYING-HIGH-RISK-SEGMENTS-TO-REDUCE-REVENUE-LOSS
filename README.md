@@ -151,7 +151,7 @@ The cleaned and transformed data was imported into Power BI for visualization. A
 
 The dashboard clearly identifies that Month-to-month contracts and Trial tenure customers are the highest risk segments, while Fiber optic users contribute the most to overall churn.
 
-![Power BI Dashboard](image9.png)
+![Power BI Dashboard](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/DASHBOARD.png?raw=true)
 
 ---
 

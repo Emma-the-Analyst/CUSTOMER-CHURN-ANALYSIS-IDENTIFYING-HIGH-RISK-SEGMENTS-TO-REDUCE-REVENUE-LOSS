@@ -117,7 +117,7 @@ The dataset was imported into MySQL Workbench using the Table Data Import Wizard
 
 A NULL check was performed on the seven variables of interest (CustomerID, Contract, tenure, MonthlyCharges, InternetService, Churn, TotalCharges). The query returned no rows, confirming that no missing values exist in the core analytical variables. This ensures data completeness for analysis.
 
-![Missing values check]((https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/CHECKING%20FOR%20NULL.png?raw=true))
+![Missing values check](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/CHECKING%20FOR%20NULL.png?raw=true)
 
 #### c. Checking for duplicates
 

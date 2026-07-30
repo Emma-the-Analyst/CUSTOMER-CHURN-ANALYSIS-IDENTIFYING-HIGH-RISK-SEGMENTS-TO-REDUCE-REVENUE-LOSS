@@ -137,7 +137,7 @@ Outlier detection was performed on the Monthly Charges variable using the Interq
 
 The data type was checked to verify that all columns had appropriate data types. All variables of interest are in the correct data type, requiring no conversion.
 
-![Data type check](image7.png)
+![Data type check](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/DATA%20TYPE%20CHECK.png?raw=true)
 
 #### f. Creating a view
 

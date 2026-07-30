@@ -131,7 +131,7 @@ Outlier detection was performed on the Monthly Charges variable using the Interq
 
 ![Outliers check 1](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/outlier%201.png?raw=true)
 ![Outliers check 2](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/outlier%202.png?raw=true)
-![Outliers check result](image6.png)
+![Outliers check result](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/outlier%203.png?raw=true)
 
 #### e. Data type check
 

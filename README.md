@@ -163,7 +163,7 @@ The dashboard clearly identifies that Month-to-month contracts and Trial tenure 
 
 High-Charges customers (>$70) churn at 35%, while Low-Charges customers (≤$70) churn at 17%. This suggests that customers paying more are more likely to cancel, possibly due to higher expectations or price sensitivity.
 
-![Monthly Charges Analysis](image10.png)
+![Monthly Charges Analysis](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/month%20charge%20analysis.png?raw=true)
 
 **CHURN RATE BY CONTRACT ANALYSIS**
 

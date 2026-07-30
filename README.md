@@ -29,25 +29,25 @@
 
 ---
 
-**1. PROJECT ABSTRACT**
+## 1. PROJECT ABSTRACT
 
 This project analyzes customer churn for a telecom company using the IBM Telco Customer Churn dataset. The goal is to identify key drivers of churn across four main segments: Contract type, Tenure, Monthly Charges, and Internet Service. The analysis involves data cleaning and transformation using MySQL, followed by visualization in Power BI. The final dashboard provides actionable insights to reduce churn and revenue loss by targeting high-risk customer segments.
 
 ---
 
-**2. STAGES**
+## 2. STAGES
 
-**I. Requirement Gathering**
+### I. Requirement Gathering
 
-**i. OBJECTIVES**
+#### i. OBJECTIVES
 
 To analyze customer churn drivers by evaluating Contract, tenure, Monthly Charges, and Internet Service to identify high-risk segments. Provide actionable insights to reduce churn and revenue loss.
 
-**ii. BUSINESS PROBLEM**
+#### ii. BUSINESS PROBLEM
 
 The telecom company does not know if Contract, tenure, Monthly Charges, or Internet Service are causing higher churn, leading to wasted retention spending and revenue loss.
 
-**iii. QUESTIONS ASKED**
+#### iii. QUESTIONS ASKED
 
 1. What is the overall churn rate ?
 2. Does Contract type (Month-to-month, One year, Two year) affect churn rate?
@@ -57,23 +57,23 @@ The telecom company does not know if Contract, tenure, Monthly Charges, or Inter
 6. How much revenue is lost to churn?
 7. Which segment (Contract, Tenure, Monthly Charges, Internet Service) has the highest churn rate?
 
-**iv. SOLUTION**
+#### iv. SOLUTION
 
 1. Build a Power BI dashboard that visualizes churn rate across four key segments; Contract, Tenure, Monthly Charges, Internet Service with KPI cards showing total customers, overall churn rate, and revenue lost. The dashboard will enable the retention team to quickly identify high-risk segments and take targeted action.
 
 2. Recommend possible course of action to be taken to solve the problem.
 
-**v. USERS**
+#### v. USERS
 
 Retention Manager and Marketing Team will use the dashboard to identify high-risk customer segments and launch targeted retention campaigns to reduce churn and revenue loss.
 
-**vi. DATA SOURCE**
+#### vi. DATA SOURCE
 
 The dataset was obtained from Kaggle. The dataset link is below;
 
 DATASET LINK: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
-**vii. DATA DICTIONARY**
+#### vii. DATA DICTIONARY
 
 | Column Name | Data Type | Description |
 |-------------|-----------|-------------|
@@ -85,47 +85,45 @@ DATASET LINK: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 | Churn | Categorical (binary) | Whether customer canceled subscription |
 | Total Charges | Numerical (continuous) | Total amount charged over entire tenure ($) |
 
-**viii. VARIABLE CATEGORIZATION**
+#### viii. VARIABLE CATEGORIZATION
 
-**Contract** represents the type of subscription agreement a customer has with the company. It consists of three distinct categories: Month-to-month (no long-term commitment, renews monthly), One year (12-month contract), and Two year (24-month contract).
+Contract represents the type of subscription agreement a customer has with the company. It consists of three distinct categories: Month-to-month (no long-term commitment, renews monthly), One year (12-month contract), and Two year (24-month contract).
 
-**Tenure** represents the length of time a customer has been with the company and has been grouped into three distinct segments; Trial (0-12 months), Regular (13-24 months), and Committed (25+ months).
+Tenure represents the length of time a customer has been with the company and has been grouped into three distinct segments; Trial (0-12 months), Regular (13-24 months), and Committed (25+ months).
 
-**Monthly Charges** represents the amount a customer pays per month. It has been grouped into two segments: High-Charges (≥70) and Low-Charges (<70).
+Monthly Charges represents the amount a customer pays per month. It has been grouped into two segments: High-Charges (≥70) and Low-Charges (<70).
 
-**Internet Service** represents the type of internet connection a customer subscribes to. It consists of three categories: DSL (digital subscriber line), Fiber optic (high-speed fiber connection), and No (no internet service).
+Internet Service represents the type of internet connection a customer subscribes to. It consists of three categories: DSL (digital subscriber line), Fiber optic (high-speed fiber connection), and No (no internet service).
 
-**ix. TOOLS USED**
+#### ix. TOOLS USED
 
 MySQL - For cleaning and data manipulation
-
 Power BI - For visualization
-
-Excel - For documenting discovery and analysis
+Excel - For documenting discovery analysis
 
 ---
 
-**II. DEVELOPMENT (Cleaning and Visualisation)**
+### II. DEVELOPMENT (Cleaning and Visualisation)
 
-**a. Loading dataset into sql (MySQL)**
+#### a. Loading dataset into sql (MySQL)
 
 The dataset was imported into MySQL Workbench using the Table Data Import Wizard. The database schema was named churn, and the raw data was loaded into a table called customer_churn. A preliminary SELECT * FROM customer_churn LIMIT 5 query confirmed that all 7,043 rows and 21 columns were successfully loaded into the database with correct structure.
 
 ![Loading dataset into MySQL](image1.png)
 
-**b. Checking for missing(null) values**
+#### b. Checking for missing(null) values
 
 A NULL check was performed on the seven variables of interest (CustomerID, Contract, tenure, MonthlyCharges, InternetService, Churn, TotalCharges). The query returned no rows, confirming that no missing values exist in the core analytical variables. This ensures data completeness for analysis.
 
 ![Missing values check](image2.png)
 
-**c. Checking for duplicates**
+#### c. Checking for duplicates
 
 A duplicate check was performed by grouping all seven variables of interest and counting occurrences. The query returned no results, confirming that there are no duplicate records in the dataset. Each customer is unique.
 
 ![Duplicate check](image3.png)
 
-**d. Outliers check**
+#### d. Outliers check
 
 Outlier detection was performed on the Monthly Charges variable using the Interquartile Range (IQR) method. The query calculated Q1 (25th percentile), Q3 (75th percentile), and IQR, then identified values outside the lower fence (Q1 - 1.5 × IQR) and upper fence (Q3 + 1.5 × IQR). The query returned no rows, confirming no outliers exist in Monthly Charges.
 
@@ -133,19 +131,19 @@ Outlier detection was performed on the Monthly Charges variable using the Interq
 ![Outliers check 2](image5.png)
 ![Outliers check result](image6.png)
 
-**e. Data type check**
+#### e. Data type check
 
 The data type was checked to verify that all columns had appropriate data types. All variables of interest are in the correct data type, requiring no conversion.
 
 ![Data type check](image7.png)
 
-**f. Creating a view**
+#### f. Creating a view
 
 A view named FINAL_CUSTOMER_CHURN was created to extract variables of interest for analysis and visualization.
 
 ![Creating view](image8.png)
 
-**g. Visualisation**
+#### g. Visualisation
 
 The cleaned and transformed data was imported into Power BI for visualization. An interactive dashboard was designed with three KPI cards at the top displaying Total Customers (7,032), Overall Churn Rate (27%), and Revenue Lost (18%). Below the KPIs, four main visuals were built to answer the business questions: a stacked bar chart showing churn rate by Contract (Month-to-month at 43%, One year at 11%, Two year at 3%), a bar chart for Tenure (Trial at 48%, Regular at 29%, Committed at 14%), a column chart for Monthly Charges (High-Charges at 35%, Low-Charges at 17%), and a pie chart for Internet Service (Fiber optic at 61%, DSL at 28%, No at 11%).
 
@@ -155,9 +153,9 @@ The dashboard clearly identifies that Month-to-month contracts and Trial tenure 
 
 ---
 
-**III. ANALYSIS**
+### III. ANALYSIS
 
-**i. FINDINGS DOCUMENTATION AND DISCOVERY**
+#### i. FINDINGS DOCUMENTATION AND DISCOVERY
 
 **CHURN RATE BY MONTHLY CHARGES ANALYSIS**
 
@@ -197,7 +195,7 @@ The overall churn rate for the company is **27%**. This means that out of 7,032 
 
 ---
 
-**3. RECOMMENDATIONS**
+## 3. RECOMMENDATIONS
 
 1. **Target Month-to-Month Customers** - With a churn rate of 43%, the company should offer incentives such as discounts or free upgrades to encourage these customers to switch to annual contracts.
 
@@ -211,6 +209,6 @@ The overall churn rate for the company is **27%**. This means that out of 7,032 
 
 ---
 
-**4. CONCLUSION**
+## 4. CONCLUSION
 
 The churn rate analysis identifies that Fiber optic customers have the highest probability of churning at 61%, followed by Trial tenure at 48%, Month-to-month contracts at 43%, and High-Charges customers at 35%. These four segments represent the greatest churn risk and should be the primary focus of retention strategies. By addressing the specific needs and pain points of these high-risk groups, the company can reduce overall churn from 27% and improve customer retention.

@@ -175,7 +175,7 @@ Month-to-month customers have the highest churn rate at 43%, significantly highe
 
 Trial customers (0-12 months) show the highest churn at 48%, followed by Regular (13-24 months) at 29%, and Committed (25+ months) at 14%. This shows that newer customers are most at risk, and retention efforts should focus on the first year.
 
-![Tenure Analysis](image12.png)
+![Tenure Analysis](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/tenure%20analysis.png?raw=true)
 
 **CHURN RATE BY INTERNET SERVICE ANALYSIS**
 

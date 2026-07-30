@@ -143,7 +143,7 @@ The data type was checked to verify that all columns had appropriate data types.
 
 A view named FINAL_CUSTOMER_CHURN was created to extract variables of interest for analysis and visualization.
 
-![Creating view](image8.png)
+![Creating view](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/creating%20view.png?raw=true)
 
 #### g. Visualisation
 

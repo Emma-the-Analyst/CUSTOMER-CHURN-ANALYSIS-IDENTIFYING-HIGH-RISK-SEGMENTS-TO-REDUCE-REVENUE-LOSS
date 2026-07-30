@@ -101,7 +101,7 @@ MySQL - For cleaning and data manipulation
 
 Power BI - For visualization
 
-Excel - For documenting discovery analysis
+Excel - For documenting discovery and analysis
 
 ---
 

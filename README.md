@@ -111,7 +111,7 @@ Excel - For documenting discovery and analysis
 
 The dataset was imported into MySQL Workbench using the Table Data Import Wizard. The database schema was named churn, and the raw data was loaded into a table called customer_churn. A preliminary SELECT * FROM customer_churn LIMIT 5 query confirmed that all 7,043 rows and 21 columns were successfully loaded into the database with correct structure.
 
-![Loading dataset into MySQL](image1.png)
+![Loading dataset into MySQL](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/LOADING%20DATASET.png?raw=true)
 
 #### b. Checking for missing(null) values
 

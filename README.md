@@ -169,7 +169,7 @@ High-Charges customers (>$70) churn at 35%, while Low-Charges customers (≤$70)
 
 Month-to-month customers have the highest churn rate at 43%, significantly higher than One year (11%) and Two year (3%). This indicates that customers without long-term commitments are far more likely to leave, suggesting that contract length is a strong retention driver.
 
-![Contract Analysis](image11.png)
+![Contract Analysis](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/contract%20analysis.png?raw=true)
 
 **CHURN RATE BY TENURE ANALYSIS**
 

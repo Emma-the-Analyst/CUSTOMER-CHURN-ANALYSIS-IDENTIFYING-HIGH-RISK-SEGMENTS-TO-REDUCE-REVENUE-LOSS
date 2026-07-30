@@ -123,7 +123,7 @@ A NULL check was performed on the seven variables of interest (CustomerID, Contr
 
 A duplicate check was performed by grouping all seven variables of interest and counting occurrences. The query returned no results, confirming that there are no duplicate records in the dataset. Each customer is unique.
 
-![Duplicate check](image3.png)
+![Duplicate check](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/DUPLICATE%20CHECK.png?raw=true)
 
 #### d. Outliers check
 

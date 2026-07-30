@@ -12,7 +12,7 @@
      - [v. Users](#v-users)
      - [vi. Data Source](#vi-data-source)
      - [vii. Data Dictionary](#vii-data-dictionary)
-     - [viii. Column Categorization](#viii-column-categorization)
+     - [viii. Variable Categorization](#viii-variable-categorization)
      - [ix. Tools used](#ix-tools-used)
    - [II. Development (Cleaning and Visualisation)](#ii-development-cleaning-and-visualisation)
      - [a. Loading dataset into sql (MySQL)](#a-loading-dataset-into-sql-mysql)

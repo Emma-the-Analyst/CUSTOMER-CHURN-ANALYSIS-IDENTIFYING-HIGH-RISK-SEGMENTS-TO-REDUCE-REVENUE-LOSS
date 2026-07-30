@@ -130,7 +130,7 @@ A duplicate check was performed by grouping all seven variables of interest and 
 Outlier detection was performed on the Monthly Charges variable using the Interquartile Range (IQR) method. The query calculated Q1 (25th percentile), Q3 (75th percentile), and IQR, then identified values outside the lower fence (Q1 - 1.5 × IQR) and upper fence (Q3 + 1.5 × IQR). The query returned no rows, confirming no outliers exist in Monthly Charges.
 
 ![Outliers check 1](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/outlier%201.png?raw=true)
-![Outliers check 2](image5.png)
+![Outliers check 2](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/outlier%202.png?raw=true)
 ![Outliers check result](image6.png)
 
 #### e. Data type check

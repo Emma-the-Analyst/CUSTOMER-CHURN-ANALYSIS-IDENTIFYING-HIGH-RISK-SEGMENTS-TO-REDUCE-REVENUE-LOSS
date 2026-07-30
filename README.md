@@ -187,13 +187,13 @@ Fiber optic customers have the highest churn rate at 61%, compared to DSL (28%) 
 
 The Revenue Lost KPI shows **18%**, indicating that 18% of the company's total revenue (calculated from the variables of interest: Contract, tenure, MonthlyCharges, InternetService) is attributed to customers who have churned. This means that for every $100 in revenue captured from the selected variables, $18 is lost to customer cancellations.
 
-![Revenue Lost KPI](image14.png)
+![Revenue Lost KPI](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/overall%20churn%20and%20revenue.png?raw=true)
 
 **OVERALL CHURN**
 
 The overall churn rate for the company is **27%**. This means that out of 7,032 total customers, approximately 1,899 customers have churned. This rate is significantly high for a telecom company, indicating a critical need for intervention to prevent further revenue loss.
 
-![Overall Churn KPI](image14.png)
+![Overall Churn KPI](https://github.com/Emma-the-Analyst/CUSTOMER-CHURN-ANALYSIS-IDENTIFYING-HIGH-RISK-SEGMENTS-TO-REDUCE-REVENUE-LOSS/blob/main/IMAGES/overall%20churn%20and%20revenue.png?raw=true)
 
 ---
 
